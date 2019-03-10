@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Joining the Blogging Club
 
 I always wanted to start a blog but never made it a priority. After finishing my masters degree, I decided it is time to start blogging and contributing back to the community. I have been attending many conferences and always find new ideas to research and experiment but never really dedicated the time.
