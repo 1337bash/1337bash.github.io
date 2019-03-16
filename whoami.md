@@ -8,8 +8,6 @@ title: whoami
 
 I am interested in all areas of Information Security. You can't defend your organization or infrastructure properly if you don't understand how the attackers can get in and move round. In the same time, you have to understand what the blue team is monitoring and looking for to avoid being caught and stay under the radar if you want to get those invaluable domain admin creds. it is two sides of the same coin.
 
-{% twitter https://twitter.com/1337bash maxwidth=600 limit=1 %}
-
 ## Contact
 
 If you ever wanted to get in touch drop me a line 
