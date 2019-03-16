@@ -1,4 +1,11 @@
-# Joining the Blogging Club
+---
+layout: default
+author: Bashar
+categories: [Lab]
+tags: [pfSense, ESXi]
+title: First Post
+---
+
 
 I always wanted to start a blog but never made it a priority. After finishing my masters degree, I decided it is time to start blogging and contributing back to the community. I have been attending many conferences and always find new ideas to research and experiment but never really dedicated the time.
 
@@ -7,6 +14,10 @@ I try to attend different conferences every year to see what everyone is working
 So this is how this blog was born; to document my very first project: The Purple Team Lab.
 
 # The Purple Team Lab
+
+{:center: style="text-align: center;"}
+![Lab Diagam](/assets/images/pa.png)
+{: center}
 
 ## Background
 
@@ -70,4 +81,10 @@ So we will breakdown the LAB into different segments:
 - Architecture 
 - Unifi
 - Automation
+
+
+
+
+
+
 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+        {% include head.html %}
+  <body>
+    <header>
+      <div class="container" >
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+          <a href="{{ site.baseurl }}/" style='margin-right:10px'>Home</a>
+          <a href="{{ site.baseurl }}/whoami" style='margin-right:10px'>whoami</a>
+          {% include header.html %}
+          {% include search-lunr.html %}
+      </div>
+    </header>
+      <div class="container">
+        <section id="main_content">
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+        </section>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+---
+layout: default
+title: 1337bash Blog
+---
+
+<ul>
+  {% for post in paginator.posts %}
+    <li>
+        <h1 style="margin-bottom: 1px;"><a style="font-size: 24px;margin-bottom: 0px;" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h1>
+        <p class="post-meta" style="color: #b5e853; margin-top: 0px;"
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>  |   {% include read_time.html content=post.content %}</p>  
+        <p>{{ post.description}}</p>
+    </li>
+  {% endfor %}
+</ul>

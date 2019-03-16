@@ -1,5 +1,15 @@
 title: 1337bash.com | An InfoSec Blog
 description: Information Security Ideas Thoughts and Topics.
 show_downloads: true
-google_analytics:
+google_analytics: UA-136340757-1
+permalink: "/:title"
 theme: jekyll-theme-hacker
+plugins: 
+  - jekyll-paginate
+  - jekyll-twitter-plugin
+  - jekyll-time-to-read
+  - jekyll-sitemap
+github_username:  1337bash
+twitter_username: 1337bash
+paginate: 4
+paginate_path: /page/:num/
