@@ -7,10 +7,9 @@ permalink: "/:title"
 theme: jekyll-theme-hacker
 plugins: 
   - jekyll-paginate
-  - jekyll-twitter-plugin
   - jekyll-time-to-read
   - jekyll-sitemap
 github_username:  1337bash
 twitter_username: 1337bash
-paginate: 4
+paginate: 10
 paginate_path: /page/:num/
